@@ -5,6 +5,17 @@
  <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+ <style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+</style>
 </head>
 <body class="container">
  <h1>Ether-1 Council Voting!</h1>
@@ -46,6 +57,9 @@
  </div>
  <input type="text" id="candidate" />
  <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+ <div class="footer">
+  <p>Official Ether-1 Council Voting Dapp. | © ether1.org | Made by Dylie</p>
+</div>
 </body>
 <script charset="utf-8"
         src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
