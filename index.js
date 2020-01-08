@@ -2,9 +2,9 @@ abi = JSON.parse('[{"constant":true,"inputs":[{"name":"candidate","type":"bytes3
 
 provider = new ethers.providers.Web3Provider(web3.currentProvider);
 signer = provider.getSigner(0);
-contract = new ethers.Contract('0x0499e15b087f733aed0a007eee102bb759d988b3', abi, signer)
+contract = new ethers.Contract('0x65203c962604446378402ebd1912091cc7c79276', abi, signer)
 
-candidates = {"Dylie": "candidate-1", "James": "candidate-2", "Jose": "Test"}
+candidates = {"Dylie": "candidate-1", "James": "candidate-2", "Primate": "candidate-3", "Fallen": "candidate-4", "Exlo": "candidate-5", "Test": "candidate-6"}
 
 function voteForCandidate(candidate) {
  candidateName = $("#candidate").val();
