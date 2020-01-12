@@ -2,7 +2,7 @@ abi = JSON.parse('[{"constant":true,"inputs":[{"name":"candidate","type":"bytes3
 
 provider = new ethers.providers.Web3Provider(web3.currentProvider);
 signer = provider.getSigner(0);
-contract = new ethers.Contract('0xb204cd5e3ae836eebbb8ffdd300aaf3074a32407', abi, signer)
+contract = new ethers.Contract('0xfdd0fd5121c09ccd82332e93e6acc77524591582 ', abi, signer)
 
 candidates = {"Dylie": "candidate-1", "James": "candidate-2", "Primate": "candidate-3", "Fallen": "candidate-4", "Exlo": "candidate-5", "Test": "candidate-6"}
 
