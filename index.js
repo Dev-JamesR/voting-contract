@@ -6,6 +6,10 @@ contract = new ethers.Contract('0x65203c962604446378402ebd1912091cc7c79276', abi
 
 candidates = {"Dylie": "candidate-1", "James": "candidate-2", "Primate": "candidate-3", "Fallen": "candidate-4", "Exlo": "candidate-5", "Test": "candidate-6"}
 
+    document.getElementById("vote-" + candidate).innerText = votes;
+  });
+}
+
 function voteForCandidate(candidate) {
  candidateName = $("#candidate").val();
   console.log(candidateName);
