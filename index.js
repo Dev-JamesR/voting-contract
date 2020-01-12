@@ -10,7 +10,6 @@ candidates = {"Dylie": "candidate-1", "James": "candidate-2", "Primate": "candid
 function voteForCandidate(candidate) {
  candidateName = $("#candidate").val();
   console.log(candidateName);
-    document.getElementById("vote-" + candidate).innerText = votes;
 
 
   contract.voteForCandidate(ethers.utils.formatBytes32String(candidateName)).then((f) => {
